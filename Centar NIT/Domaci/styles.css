@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.Card {
+  width: 320px;
+  height: auto;
+  padding: 24px;
+  font-size: 16px;
+  margin: 10px;
+
+  border: 2px solid rgb(199, 197, 197);
+  border-radius: 6px;
+}
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+
+i {
+  margin-right: 6px;
+}
+
+.divider {
+  border-bottom: 1px solid gray;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.button {
+  outline: none;
+  background-color: rgb(156, 163, 175);
+  width: 100%;
+  color: white;
+  border: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 4px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: space-between;
+}
+.button:hover {
+  background-color: rgb(88, 92, 99);
+}
+
+p {
+  color: rgb(87, 85, 85);
+  margin: 8px 0;
+}
+
+.text-bottom {
+  color: rgb(125, 131, 142);
+}
+
+.Card-popular {
+  position: relative;
+  width: 320px;
+  height: auto;
+  padding: 24px;
+  font-size: 16px;
+  margin: 10px;
+
+  border: 2px solid rgb(40, 16, 200);
+  border-radius: 6px;
+}
+
+.button-popular {
+  outline: none;
+  background-color: rgb(40, 16, 200);
+  width: 100%;
+  color: white;
+  border: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border-radius: 4px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: space-between;
+}
+.button-popular:hover {
+  background-color: rgb(0, 31, 84);
+}
+
+.popular {
+  color: white;
+  padding: 6px;
+  background-color: rgb(40, 16, 200);
+  position: absolute;
+  top: -1px;
+  right: -1px;
+  border-radius: 0 6px 0 6px;
+}
