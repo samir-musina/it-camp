@@ -1,0 +1,56 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 405px;
+    height: 576px;
+    display: grid;
+    grid-template-rows: 50px 150px 110px 40px 150px 50px ;
+    grid-template-columns: 200px 200px;
+    column-gap: 5px;
+    row-gap: 5px;
+    margin: auto;
+    grid-template-areas: 
+    "header header"
+    "box box2"
+    "box box3"
+    "box1 box3"
+    "box1 box4"
+    "footer footer";
+}
+.header{
+    border: 2px solid black;
+    border-radius: 25px;
+    grid-area: header;
+}
+.box{
+    border: 2px solid black;
+    border-radius: 25px;
+    grid-area: box;
+}
+.box1{
+    border: 2px solid black;
+    border-radius: 25px;
+    grid-area: box1;
+}
+.box2{
+    border: 2px solid black;
+    border-radius: 25px;
+    grid-area: box2;
+}
+.box3{
+    border: 2px solid black;
+    border-radius: 25px;
+    grid-area: box3;
+}
+.box4{
+    border: 2px solid black;
+    border-radius: 25px;
+    grid-area: box4;
+}
+.footer{
+    border: 2px solid black;
+    border-radius: 25px;
+    grid-area: footer;
+}

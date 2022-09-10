@@ -1,0 +1,244 @@
+.body{
+    margin: 0;
+    padding: 0;
+
+}
+img{
+margin: auto;
+position:relative;
+display: flex;
+}
+.zajedno{
+    position: relative;
+    justify-item: center;
+}
+
+.polje{
+    z-index: -100;
+    position: absolute;
+
+}
+.drvo{
+z-index: -50;
+width: 150px;
+height: 320px;
+position: absolute;
+top: 370px;
+left: 900px;
+animation:drvo 2s infinite;
+animation-fill-mode: forwards;
+animation-timing-function: linear;
+}
+.grana{
+z-index: -50;
+width: 150px;
+height: 320px;
+position: absolute;
+top: 370px;
+left: 600px;
+animation:grana 2s infinite;
+animation-fill-mode: forwards;
+animation-timing-function: linear;
+
+}
+.stablo{
+    z-index: -50;
+    width: 150px;
+    height: 320px;
+    position: absolute;
+    top: 370px;
+    left: 750px;
+    animation:stablo 2s infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;  
+}
+.stablo1{
+    z-index: -50;
+    width: 150px;
+    height: 320px;
+    position: absolute;
+    top: 370px;
+    left: 750px;
+    animation:stablo1 2s infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+    overflow: hidden; 
+}
+.auto{
+    top: 430px;
+    left: 200px;
+    display: flex;
+    position: absolute;
+   
+}
+.tocak{
+    display: flex;
+    width: 80px;
+    height: 80px;
+    top:605px;
+    right: 137px;
+    animation: tocak 1s infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+
+}
+.tocak2{
+    display: flex;
+    width: 80px;
+    height: 80px;
+    top:675px;
+    right: 466px;
+    animation: tocak 1s infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+
+}
+.crta{
+    display: flex;
+    width: 40px;
+    height: 10px;
+    position: absolute;
+    top:800px;
+    left: 500px;
+    background-color: white;
+    animation:crta 1s infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+
+
+}
+.put{
+   width: 40px;
+   height: 10px;
+   position:absolute ;
+   top: 800px;
+   left: 650px;
+   background-color:white;
+   animation:put 1s infinite;
+   animation-fill-mode: forwards;
+   animation-timing-function: linear;
+
+  
+
+}
+.bela{
+   width: 40px;
+   height: 10px;
+   position:absolute ;
+   top: 800px;
+   left: 800px;
+   background-color:white;
+   animation:bela 1s infinite;
+   animation-fill-mode: forwards;
+   animation-timing-function: linear;
+}
+.crna{
+    width: 40px;
+    height: 10px;
+    position:absolute ;
+    top: 800px;
+    left: 950px;
+    background-color:white;
+    animation:crna 1s infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+.crvena{
+    width: 40px;
+    height: 10px;
+    position:absolute ;
+    top: 800px;
+    left: 1100px;
+    background-color:white;
+    animation:crvena 1s infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+.zelena{
+    width: 40px;
+    height: 10px;
+    position:absolute ;
+    top: 800px;
+    left: 1250px;
+    background-color:white;
+    animation:zelena 1s infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
+}
+
+@keyframes tocak {
+    100%{
+        transform: rotate(360deg);
+    }
+    
+}
+@keyframes crta{
+    0%{left:200px;}
+    25%{left:150px;}
+    50%{left:100px;}
+    75%{left:50px;}
+    100%{left:0px;}
+}
+@keyframes put{
+    0%{left:400px;}
+    25%{left:350px;}
+    50%{left:300px;}
+    75%{left:250px;}
+    100%{left:200px;}
+}
+@keyframes bela{
+    0%{left:600px;}
+    25%{left:550px;}
+    50%{left:500px;}
+    75%{left:450px;}
+    100%{left:400px;}
+}
+@keyframes crna{
+    0%{left:800px;}
+    25%{left:750px;}
+    50%{left:700px;}
+    75%{left:650px;}
+    100%{left:600px;}
+}
+@keyframes crvena{
+    0%{left:1000px;}
+    25%{left:950px;}
+    50%{left:900px;}
+    75%{left:850px;}
+    100%{left:800px;}
+}
+@keyframes zelena{
+    0%{left:1200px;}
+    25%{left:1150px;}
+    50%{left:1100px;}
+    75%{left:1050px;}
+    100%{left:1000px;}
+}
+@keyframes drvo{
+    0%{left:280px;}
+    25%{left:210px;}
+    50%{left:140px;}
+    75%{left:70px;}
+    100%{left:0px;}
+}
+@keyframes grana{
+    0%{left:560px;}
+    25%{left:490px;}
+    50%{left:420px;}
+    75%{left:350px;}
+    100%{left:280px;}  
+}
+@keyframes stablo{
+    0%{left:910px;}
+    25%{left:840px;}
+    50%{left:770px;}
+    75%{left:700px;}
+    100%{left:630px;}
+}
+@keyframes stablo1{
+    0%{left:1190px;}
+    25%{left:1120px;}
+    50%{left:1050px;}
+    75%{left:980px;}
+    100%{left:910px;}
+}

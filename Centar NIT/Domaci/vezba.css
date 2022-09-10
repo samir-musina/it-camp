@@ -1,0 +1,57 @@
+.okvir {
+  width: 900px;
+  height: 700px;
+  position: relative;
+  display: inline-block;
+  background-color: black;
+  border: 2px solid red;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+.box {
+  width: 700px;
+  height: 500px;
+  position: absolute;
+  background-color: white;
+  display: inline-block;
+  margin-top: 100px;
+  margin-left: 100px;
+  overflow: hidden;
+}
+.krug {
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  left: 10px;
+  margin-left: 40px;
+
+}
+.krug:hover{
+  animation-name: primer;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+  animation-duration: 3s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes primer {
+  0% {
+    top: 0px;
+  }
+  25% {
+    top: 400px;
+  }
+  50% {
+    top: 0px;
+  }
+  75% {
+    top: 400px;
+  }
+  100% {
+    top: 0px;
+  }
+  
+}

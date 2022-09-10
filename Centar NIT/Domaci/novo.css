@@ -1,0 +1,14 @@
+.kontejner{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 600px;
+    height: 500px;
+    border: 2px solid black;
+
+}
+.content{
+    width: 300px;
+    height: 200px;
+    border: 2px solid red;
+}
