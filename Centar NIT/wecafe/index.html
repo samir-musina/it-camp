@@ -6,38 +6,130 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/e2d5d9a195.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <video playsinline autoplay muted loop poster="polina.jpg" id="bgvid">
+    <video
+      playsinline
+      autoplay
+      muted
+      loop
+      poster="../wecafe/assets/video_preview_h264.mp4"
+      id="bgvid"
+    >
       <source src="../wecafe/assets/video_preview_h264.mp4" type="video/webm" />
       <source src="../wecafe/assets/video_preview_h264.mp4" type="video/mp4" />
     </video>
+    <button class="dugme">
+      <i class="fa-solid fa-2x fa-pause"></i>
+    </button>
     <div class="container">
       <div class="okvir">
-      <div class="levi">
-        <div class="menu">
-          <h1 class="levi-title">Wave Cafe</h1>
-          <div class="levi-menu">
-          <button>Drinks menu</button>
-          <button>About us</button>
-          <button>Special Items</button>
-          <button >Conact</button>
+        <div class="levi">
+          <div class="menu">
+            <h1 class="levi-title">
+              <i class="fas fa-coffee tm-site-logo"></i>
+              Wave Cafe
+            </h1>
+            <div class="levi-menu">
+              <button class="aktivan">
+                <i class="fas fa-mug-hot tm-page-link-icon"></i>
+                Drinks menu
+              </button>
+              <button>
+                <i class="fas fa-users tm-page-link-icon"></i>
+                About Us
+              </button>
+              <button>
+                <i class="fas fa-glass-martini tm-page-link-icon"></i>
+                Special Items
+              </button>
+              <button>
+                <i class="fas fa-comments tm-page-link-icon"></i>
+                Contact
+              </button>
+            </div>
           </div>
         </div>
+        <div class="desni">
+          <div class="content">
+            <ul class="content-header">
+              <li class="content-active">Iced Coffee</li>
+              <li class="content-hot">Hot Coffee</li>
+              <li class="content-fruit">Fruit Juice</li>
+            </ul>
 
-      </div>
-      <div class="desni">
-        <div class="content">
-          <ul class="content-header">
-            <li class="content-active">Iced Coffee</li>
-            <li>Hot Coffee</li>
-            <li>Fruit Juice</li>
-          </ul>
+            <div class="box1">
+              <div class="slika1">
+                <img src="../wecafe/assets/iced-americano.png" />
+              </div>
+              <div class="tekst1">
+                <h3 class="naslov">
+                  Iced Americano
+                  <span class="slova">$10.25</span>
+                </h3>
+                <p class="unutar">
+                  Here is a short description for the first item. Wave Cafe
+                  Template is provided by Tooplate.
+                </p>
+              </div>
+            </div>
+            <div class="box1">
+              <div class="slika1">
+                <img src="../wecafe/assets/iced-cappuccino.png" />
+              </div>
+              <div class="tekst1">
+                <h3 class="naslov">
+                  Iced Cappuccino
+                  <span class="slova">$12.50</span>
+                </h3>
+                <p class="unutar">
+                  Here is a list of 4 items or add more. You can use this
+                  template for commercial purposes.
+                </p>
+              </div>
+            </div>
+            <div class="box1">
+              <div class="slika1">
+                <img src="assets/iced-espresso.png" />
+              </div>
+              <div class="tekst1">
+                <h3 class="naslov">
+                  Iced Espresso
+                  <span class="slova">$14.25</span>
+                </h3>
+                <p class="unutar">
+                  You are not permitted to redistribute this template ZIP file
+                  on any other template websites.
+                </p>
+              </div>
+            </div>
+            <div class="box1">
+              <div class="slika1">
+                <img src="../wecafe/assets/iced-latte.png" />
+              </div>
+              <div class="tekst1">
+                <h3 class="naslov">
+                  Iced Latte
+                  <span class="slova">$11.50</span>
+                </h3>
+                <p class="unutar">
+                  Contents are organized into 3 tabs. Please contact Tooplate if
+                  you have anything to ask.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
-    </div>
-    <!-- stavi z index na footer i izbrisi komentar ovaj na kraju -->
-    <footer>asdasdsadsas</footer>
+    <footer>
+      <div>
+        <p class="footertext">Copyright 2020 Wave Caffe | Design: Tooplate</p>
+      </div>
+    </footer>
   </body>
 </html>
